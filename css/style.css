@@ -7,19 +7,6 @@ body {
     background-color: #FCF3EB;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-}
-
-  
-section {
-    flex: 0 0 auto;
-}
-
 h1,
 h2,
 h3,
@@ -250,15 +237,7 @@ textarea {
 }
 
 .article-quien-soy {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 100px;
-    margin: 0px 120px;
-    text-align: right;
-    width: 80vw;
+    margin: 0 20px;
 }
 
 .div-min-width {
@@ -266,6 +245,11 @@ textarea {
 }
 
 img[src="images/seccion-quien-soy-foto-personal.jpg"] {
-    width: 490px;
+    max-width: 100%;
+    height: auto;
     border-radius: 34px;
+}
+
+img[src="images/carugui-logo-blanco.png"] {
+    width: 300px;
 }
