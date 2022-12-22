@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #736A00;
+    font-weight: 400;
+    padding: 0px;
+    background-color: #FCF3EB;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+  
+section {
+    flex: 0 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+h1,
+.h1 {
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FC8455;
+}
+
+h2,
+.h2 {
+    font-size: 32px;
+    color: #5C7CD4;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+}
+
+h4,
+.h4 {
+    font-size: 24px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+
+/* COLORES */
+.color-naranja {
+    color: #FC8455;
+}
+.bg-color-naranja {
+    background-color: #FC8455;
+}
+
+.color-azul {
+    color: #5C7CD4;
+}
+.bg-color-azul {
+    background-color: #5C7CD4;
+}
+
+.color-verde-claro {
+    color: #C4DCAC;
+}
+.bg-color-verde-claro {
+    background-color: #C4DCAC;
+}
+
+.color-verde-oscuro {
+    color: #736A00;
+}
+.bg-color-verde-oscuro {
+    background-color: #736A00;
+}
+
+
+a {
+    color: #FC8455;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+a:visited {
+    color: #7A731C;
+}
+
+a:hover {
+    text-decoration-thickness: 4px;
+}
+
+button,
+.button-link {
+    display: inline-block;
+    padding: 0 16px;
+    background-color: #5C7CD4;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #3A3A3A;
+    border-radius: 25px;
+    line-height: 2;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.button-link:visited {
+    color: white;
+}
+
+button:hover,
+.button-link:hover {
+  background-color: #6BAEFF;
+}
+
+.button-secundario {
+    background-color: transparent;
+    color: #736A00;
+    border: 2px solid #736A00;
+}
+
+.button-secundario:hover {
+    background-color: #C4DCAC;
+    color: #3A3A3A;
+}
+
+.button-terciario {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color: transparent;
+    color: #7A731C;
+    border-style: solid;
+    border-color: #7A731D;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 10px 13px;
+    align-self: stretch;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #5C7CD4;
+}
+
+textarea {
+    height: 240px;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #7A731C;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #5C7CD4;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #5C7CD4 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* PROPIO ESTILO, SOLO PARA ESTA PÁGINA */
+
+.landing {
+    background-color: #FCF3EB;
+    background-image: url("../images/cielo-azul.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    gap: 21px;
+    isolation: isolate;
+}
+
+.article-quien-soy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+    margin: 0px 120px;
+    text-align: right;
+    width: 80vw;
+}
+
+.div-min-width {
+    min-width: 320px;
+}
+
+img[src="images/seccion-quien-soy-foto-personal.jpg"] {
+    width: 490px;
+    border-radius: 34px;
+}
