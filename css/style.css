@@ -234,6 +234,7 @@ textarea {
     padding: 0px;
     gap: 21px;
     isolation: isolate;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.30);
 }
 
 .article-quien-soy {
