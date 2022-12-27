@@ -12,6 +12,10 @@ nav {
     width: 100vw;
     z-index: 100;
     position: fixed;
+    border-bottom: 3px solid white;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
 }
 
 nav img {
