@@ -271,5 +271,6 @@ img[src="images/seccion-quien-soy-foto-personal.jpg"] {
 }
 
 img[src="images/carugui-logo-blanco.png"] {
-    width: 300px;
+    max-width: 100%;
+    height: auto;
 }
