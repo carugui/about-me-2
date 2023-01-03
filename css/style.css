@@ -273,13 +273,12 @@ textarea {
     margin: 0 35px;
 }
 
-img[src="images/seccion-quien-soy-foto-personal.jpg"] {
+img {
     max-width: 100%;
     height: auto;
     border-radius: 34px;
 }
 
 img[src="images/carugui-logo-blanco.png"] {
-    max-width: 100%;
-    height: auto;
+    border-radius: 0;
 }
