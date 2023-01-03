@@ -48,6 +48,8 @@ h1,
 h2,
 .h2 {
     font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
     color: #5C7CD4;
 }
 
