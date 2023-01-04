@@ -122,6 +122,15 @@ a:hover {
     text-decoration-thickness: 4px;
 }
 
+.links-rrss, .links-rrss a{
+    list-style-type: none;
+    padding: 0;
+    color: #5C7CD4;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 button,
 .button-link {
     display: inline-block;
@@ -247,6 +256,7 @@ textarea {
 }
 
 
+
 /* PROPIO ESTILO, SOLO PARA ESTA PÁGINA */
 
 .landing {
@@ -278,7 +288,7 @@ textarea {
 }
 
 .contenido {
-    margin: 0 35px;
+    margin: 0 35px 50px;
 }
 
 img {
