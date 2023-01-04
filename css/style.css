@@ -299,6 +299,7 @@ img {
 
 img[src="images/carugui-logo-blanco.png"] {
     border-radius: 0;
+    border-color: #FC8455;
 }
 
 img[src="images/carita-sonriente.png"] {
@@ -309,6 +310,17 @@ img[src="images/carita-sonriente.png"] {
     margin-right: auto;
 }
 
+#button {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
 
 @media screen and (min-width: 900px) {
     main {
