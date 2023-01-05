@@ -295,6 +295,19 @@ textarea {
     margin: 0 35px 50px;
 }
 
+.contenedor-objetos-que-hago {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 21px;
+}
+
+.objeto-que-hago {
+    flex: 0 0 auto;
+    width: 80%;
+}
+
+  
 img {
     max-width: 100%;
     height: auto;
@@ -368,6 +381,27 @@ img[src="images/carita-sonriente.png"] {
         margin: 0px 120px;
         text-align: right;
         width: 80vw;
+    }
+
+    .article-que-hago {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 100px;
+        margin: 0px 120px;
+        text-align: right;
+    }
+
+    .contenedor-objetos-que-hago {
+        display: block;
+        overflow-y: hidden;
+    }
+    
+    .objeto-que-hago {
+        flex: 0 0 auto;
+        width: 80%;
     }
     
     .div-min-width {
