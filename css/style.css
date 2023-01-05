@@ -317,10 +317,13 @@ img[src="images/carita-sonriente.png"] {
         align-items: center;
         flex-wrap: nowrap;
         overflow-x: auto;
+        gap: 120px;
     }
+
     .contenido > article {
-        width: 100vw;
+        width: 80vw;
     }
+
     .article-quien-soy {
         display: flex;
         flex-direction: row;
@@ -328,7 +331,7 @@ img[src="images/carita-sonriente.png"] {
         align-items: center;
         padding: 0px;
         gap: 100px;
-        margin: 0px 120px;
+        margin-left: 120px;
         text-align: right;
         width: 80vw;
     }
@@ -340,7 +343,6 @@ img[src="images/carita-sonriente.png"] {
         align-items: center;
         padding: 0px;
         gap: 100px;
-        margin: 0px 120px;
         text-align: right;
     }
 
@@ -352,6 +354,10 @@ img[src="images/carita-sonriente.png"] {
     .objeto-que-hago {
         flex: 0 0 auto;
         width: 80%;
+    }
+
+    .article-contactame {
+        width: 30vw;
     }
     
     .div-min-width {
