@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -320,6 +324,15 @@ img[src="images/carita-sonriente.png"] {
     position: fixed;
     bottom: 30px;
     right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 @media screen and (min-width: 900px) {
