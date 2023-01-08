@@ -320,10 +320,6 @@ img[src="images/carita-sonriente.png"] {
         gap: 120px;
     }
 
-    .contenido > article {
-        width: 80vw;
-    }
-
     .article-quien-soy {
         display: flex;
         flex-direction: row;
@@ -347,13 +343,11 @@ img[src="images/carita-sonriente.png"] {
     }
 
     .contenedor-objetos-que-hago {
-        display: block;
-        overflow-y: hidden;
+        gap: 40px;
     }
     
     .objeto-que-hago {
-        flex: 0 0 auto;
-        width: 80%;
+        width: 400px;
     }
 
     .article-contactame {
