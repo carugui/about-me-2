@@ -267,7 +267,7 @@ img {
 img[src="images/carugui-logo-blanco.png"] {
     border-radius: 0;
     border-color: #FC8455;
-    max
+    max-width: 800px;
 }
 
 img[src="images/carita-sonriente.png"] {
