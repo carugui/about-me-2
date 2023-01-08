@@ -138,7 +138,7 @@ a:hover {
 button,
 .button-link {
     display: inline-block;
-    padding: 0 16px;
+    padding: 0 45px;
     background-color: #5C7CD4;
     text-decoration: none;
     color: white;
@@ -259,7 +259,7 @@ textarea {
 
   
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 34px;
 }
@@ -310,6 +310,11 @@ img[src="images/carita-sonriente.png"] {
       
     section {
         flex: 0 0 auto;
+    }
+
+    .seccion-botones {
+        flex-direction: row;
+        justify-content: center;
     }
 
     .contenido {
