@@ -344,6 +344,7 @@ img[src="images/carita-sonriente.png"] {
 
     .contenedor-objetos-que-hago {
         gap: 40px;
+        text-align: left;
     }
     
     .objeto-que-hago {
@@ -356,6 +357,7 @@ img[src="images/carita-sonriente.png"] {
     
     .div-min-width {
         min-width: 320px;
+        max-width: 360px;
     }
 
     img[src="images/seccion-quien-soy-foto-personal.jpg"] {
