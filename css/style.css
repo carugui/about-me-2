@@ -343,7 +343,7 @@ img[src="images/carita-sonriente.png"] {
     }
 
     .contenedor-objetos-que-hago {
-        gap: 40px;
+        gap: 50px;
         text-align: left;
     }
     
@@ -351,8 +351,9 @@ img[src="images/carita-sonriente.png"] {
         width: 400px;
     }
 
+
     .article-contactame {
-        width: 30vw;
+        width: 40vw;
     }
     
     .div-min-width {
