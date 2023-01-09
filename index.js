@@ -26,6 +26,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera
 }
 
+
+// Para que cuandom a partir de 900px de ancho de la ventana, se haga scroll
+// horizontal cuando se le da a la rueda del ratón
 const scrollContainer = document.querySelector("main");
 
 scrollContainer.addEventListener("wheel", (evt) => {
