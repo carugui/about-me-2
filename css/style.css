@@ -229,8 +229,8 @@ textarea {
     margin-left:auto;
 }
 
-/* PROPIO ESTILO, SOLO PARA ESTA PÁGINA */
 
+/* PROPIO ESTILO, SOLO PARA ESTA PÁGINA */
 
 .landing {
     background-color: #FCF3EB;
@@ -264,7 +264,19 @@ textarea {
 }
 
 .contenido {
-    margin: 0 5% 50px;
+    margin: 0 0 50px;
+}
+
+.contenido > article {
+    margin: 0 5% 0;
+}
+
+#que-hago {
+    margin: 0;
+}
+
+.titulo-que-hago {
+    margin: 0 5% 0;
 }
 
 .contenedor-objetos-que-hago {
@@ -272,6 +284,13 @@ textarea {
     flex-wrap: nowrap;
     overflow-x: auto;
     gap: 21px;
+}
+
+.contenedor-objetos-que-hago article:first-child {
+    margin-left: 5%;
+}
+.contenedor-objetos-que-hago article:last-child {
+    margin-right: 5%;
 }
 
 .objeto-que-hago {

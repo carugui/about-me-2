@@ -1,5 +1,5 @@
-let mybutton = document.getElementById("button");
-let mynav = document.getElementById("nav");
+let mybutton = document.querySelector('#button');
+let mynav = document.querySelector('#nav');
 
 window.onscroll = function() {scrollFunction(), scrollNav()};
 
