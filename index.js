@@ -29,7 +29,7 @@ function topFunction() {
 const scrollContainer = document.querySelector("main");
 
 scrollContainer.addEventListener("wheel", (evt) => {
-  if (window.innerWidth > 960) {
+  if (window.innerWidth > 900) {
     evt.preventDefault();
     scrollContainer.scrollLeft += evt.deltaY;
   }
