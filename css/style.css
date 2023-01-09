@@ -26,9 +26,16 @@ nav {
     justify-content: center;
 }
 
+#nav.nav-green {
+    border-bottom: 3px solid #736A00;
+}
+
 nav img {
     max-height: 100%;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 h1,
@@ -213,6 +220,7 @@ textarea {
 
 /* PROPIO ESTILO, SOLO PARA ESTA PÁGINA */
 
+
 .landing {
     background-color: #FCF3EB;
     background-image: url("../images/cielo-azul.jpg");
@@ -303,6 +311,26 @@ img[src="images/carita-sonriente.png"] {
 }
 
 @media screen and (min-width: 900px) {
+
+    ::-webkit-scrollbar {
+        height: 20px;
+    }
+      
+    ::-webkit-scrollbar-track {
+        background-color: #5C7CD4;
+
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #FCF3EB;
+        border-radius: 100px;
+        border: 2px solid #736A00;
+    }
+
+    .landing {
+        height: calc(100vh - 20px);
+    }
+
     main {
         display: flex;
         flex-direction: row;
