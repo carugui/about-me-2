@@ -289,6 +289,7 @@ img[src="images/carita-sonriente.png"] {
     margin-right: auto;
 }
 
+/* BOTÓN PARA SUBIR / IR A INICIO */
 #button {
     border-style: solid;
     border-width: 2px;
@@ -312,15 +313,14 @@ img[src="images/carita-sonriente.png"] {
 
 @media screen and (min-width: 900px) {
 
+    /* PROPIEDADES SCROLLBAR */
     ::-webkit-scrollbar {
         height: 20px;
-    }
-      
+    }   
     ::-webkit-scrollbar-track {
         background-color: #5C7CD4;
 
     }
-    
     ::-webkit-scrollbar-thumb {
         background-color: #FCF3EB;
         border-radius: 100px;
