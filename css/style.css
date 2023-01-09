@@ -52,14 +52,14 @@ h6 {
 h1,
 .h1 {
     font-family: 'VT323', monospace;
-    font-size: 64px;
+    font-size: 60px;
     text-transform: uppercase;
     color: #FC8455;
 }
 
 h2,
 .h2 {
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
     text-transform: uppercase;
     color: #5C7CD4;
@@ -67,12 +67,12 @@ h2,
 
 h3,
 .h3 {
-    font-size: 28px;
+    font-size: 23px;
 }
 
 h4,
 .h4 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 h5,
@@ -86,7 +86,7 @@ h6,
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -316,6 +316,7 @@ img[src="images/carita-sonriente.png"] {
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 600;
     position: fixed;
     bottom: 30px;
     right: 30px;
