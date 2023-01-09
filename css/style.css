@@ -24,6 +24,7 @@ nav {
     padding: 15px 0px;
     display: flex;
     justify-content: center;
+    z-index: 1000;
 }
 
 #nav.nav-green {
@@ -355,6 +356,7 @@ img[src="images/carita-sonriente.png"] {
 
 .bird-container{
     position: absolute;
+    z-index: 600;
     top: 30%;
     left: -10%;
     transform: scale(0) translateX(-10vw);
@@ -552,6 +554,8 @@ img[src="images/carita-sonriente.png"] {
         flex-wrap: nowrap;
         overflow-x: auto;
         gap: 120px;
+        z-index: 800;
+        background-color: #FCF3EB;
     }
 
     .article-quien-soy {
