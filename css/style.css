@@ -254,7 +254,7 @@ textarea {
 }
 
 .contenido {
-    margin: 0 35px 50px;
+    margin: 0 5px 50px;
 }
 
 .contenedor-objetos-que-hago {
@@ -274,6 +274,12 @@ img {
     width: 100%;
     height: auto;
     border-radius: 34px;
+}
+
+img[src="images/seccion-quien-soy-foto-personal.jpg"] {
+    max-width: 850px;
+    max-height: 570px;
+    object-fit: cover;
 }
 
 img[src="images/carugui-logo-blanco.png"] {
@@ -360,6 +366,7 @@ img[src="images/carita-sonriente.png"] {
         gap: 120px;
         z-index: 800;
         background-color: #FCF3EB;
+        padding: 0 120px;;
     }
 
     .article-quien-soy {
@@ -369,9 +376,7 @@ img[src="images/carita-sonriente.png"] {
         align-items: center;
         padding: 0px;
         gap: 100px;
-        margin-left: 120px;
         text-align: right;
-        width: 80vw;
     }
 
     .article-que-hago {
@@ -404,9 +409,10 @@ img[src="images/carita-sonriente.png"] {
     }
 
     img[src="images/seccion-quien-soy-foto-personal.jpg"] {
-        width: 490px;
+        max-width: 490px;
     }
 }
+
 
 /* ANIMACIÓN PÁJAROS */
 .bird{
