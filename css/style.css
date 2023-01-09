@@ -191,7 +191,15 @@ button:hover,
     align-items: flex-start;
     padding: 0px;
     gap: 12px;
-    
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 12px;
+    height: 300px;
 }
 
 input[type="text"], input[type="email"], textarea {
@@ -210,7 +218,9 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 textarea {
-    height: 240px;
+    display: flex;
+    align-self: stretch;
+    flex-grow: 1;
 }
 
 .button-formulario {
@@ -254,7 +264,7 @@ textarea {
 }
 
 .contenido {
-    margin: 0 5px 50px;
+    margin: 0 5% 50px;
 }
 
 .contenedor-objetos-que-hago {
@@ -295,6 +305,8 @@ img[src="images/carita-sonriente.png"] {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 /* BOTÓN PARA SUBIR / IR A INICIO */
 #button {
@@ -410,6 +422,12 @@ img[src="images/carita-sonriente.png"] {
 
     img[src="images/seccion-quien-soy-foto-personal.jpg"] {
         max-width: 490px;
+    }
+}
+
+@media (max-height: 600px) and (min-width: 900px) {
+    .inputs {
+        height: 190px;
     }
 }
 
