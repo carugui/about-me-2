@@ -51,7 +51,11 @@ scrollContainer.addEventListener("wheel", botonInicioHorizontal)
 function botonInicioHorizontal() {
   if (document.querySelector('main').scrollLeft > 300) {
     mybutton.classList.add('show');
+    mynav.classList.add('nav-green');
+    mylogonav.classList.add('svg-logo-green');
   } else {
     mybutton.classList.remove('show');
+    mynav.classList.remove('nav-green');
+    mylogonav.classList.remove('svg-logo-green');
   }
 }
