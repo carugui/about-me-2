@@ -18,13 +18,12 @@ body {
 nav {
     height: 65px;
     width: 100vw;
-    z-index: 100;
+    z-index: 1000;
     position: fixed;
     border-bottom: 3px solid white;
     padding: 15px 0px;
     display: flex;
     justify-content: center;
-    z-index: 1000;
 }
 
 #nav.nav-green {
