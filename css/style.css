@@ -30,6 +30,14 @@ nav {
     border-bottom: 3px solid #736A00;
 }
 
+.svg-logo {
+    fill:#fff;
+}
+
+.svg-logo-green {
+    fill:#736A00;
+}
+
 nav img {
     max-height: 100%;
     width: auto;
