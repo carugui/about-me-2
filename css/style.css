@@ -24,6 +24,7 @@ nav {
     padding: 15px 0px;
     display: flex;
     justify-content: center;
+    transition: border-color .3s;
 }
 
 #nav.nav-green {
@@ -32,6 +33,7 @@ nav {
 
 .svg-logo {
     fill:#fff;
+    transition: fill .3s;
 }
 
 .svg-logo-green {

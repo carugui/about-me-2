@@ -1,5 +1,6 @@
 let mybutton = document.querySelector('#button');
 let mynav = document.querySelector('#nav');
+let mylogonav = document.querySelector('.svg-logo');
 
 window.onscroll = function() {scrollFunction(), scrollNav()};
 
@@ -14,8 +15,10 @@ function scrollFunction() {
 function scrollNav() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     mynav.classList.add('nav-green');
+    mylogonav.classList.add('svg-logo-green');
   } else {
     mynav.classList.remove('nav-green');
+    mylogonav.classList.remove('svg-logo-green');
   }
 }
 
