@@ -18,16 +18,21 @@ function scrollNav() {
     mynav.classList.remove('nav-green');
   }
 }
-// Cuando hagas click en el botón, subirá a arriba de la página
+
+// Cuando hagas click en el botón, subirá a arriba de la página o se desplazará a la izquierda
 mybutton.addEventListener("click", topFunction);
 
 function topFunction() {
-  document.body.scrollTop = 0; //Safari
-  document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera
+  if (window.innerWidth < 900) { // Si la pantalla es de menos de 900px, subirá arriba
+    document.body.scrollTop = 0; //Safari
+    document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera
+  } if (window.innerWidth > 900) { // Si la pantalla es de más de 900px, irá a la izquierda del todo
+    document.querySelector('main').scrollLeft = 0; //Safari
+    document.documentElement.scrollLeft = 0; //Chrome, Firefox, IE and Opera
+  }
 }
 
-
-// Para que cuandom a partir de 900px de ancho de la ventana, se haga scroll
+// Para que cuando a partir de 900px de ancho de la ventana, se haga scroll
 // horizontal cuando se le da a la rueda del ratón
 const scrollContainer = document.querySelector("main");
 
@@ -37,3 +42,13 @@ scrollContainer.addEventListener("wheel", (evt) => {
     scrollContainer.scrollLeft += evt.deltaY;
   }
 });
+
+scrollContainer.addEventListener("wheel", botonInicioHorizontal)
+
+function botonInicioHorizontal() {
+  if (document.querySelector('main').scrollLeft > 300) {
+    mybutton.classList.add('show');
+  } else {
+    mybutton.classList.remove('show');
+  }
+}

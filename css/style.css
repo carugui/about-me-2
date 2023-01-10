@@ -383,6 +383,10 @@ img[src="images/carita-sonriente.png"] {
         flex: 0 0 auto;
     }
 
+    .contenido > article, .titulo-que-hago, .contenedor-objetos-que-hago article:first-child, .contenedor-objetos-que-hago article:last-child {
+        margin: 0;
+    }
+
     .seccion-botones {
         flex-direction: row;
         justify-content: center;
