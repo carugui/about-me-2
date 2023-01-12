@@ -276,7 +276,7 @@ textarea {
     margin: 0 0 50px;
 }
 
-.contenido > article {
+.article-de-contenido {
     margin: 0 5% 0;
 }
 
@@ -293,6 +293,7 @@ textarea {
     flex-wrap: nowrap;
     overflow-x: auto;
     gap: 21px;
+    margin-top: 20px;
 }
 
 .contenedor-objetos-que-hago article:first-child {
@@ -305,6 +306,12 @@ textarea {
 .objeto-que-hago {
     flex: 0 0 auto;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.objeto-que-hago p {
+    flex: 1;
 }
 
   
@@ -332,12 +339,13 @@ img[src="images/carita-sonriente.png"] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 
 
 /* BOTÓN PARA SUBIR / IR A INICIO */
-#button {
+#button-inicio {
     border-style: solid;
     border-width: 2px;
     border-radius: 100%;
@@ -354,7 +362,7 @@ img[src="images/carita-sonriente.png"] {
     z-index: 1000;
 }
 
-#button.show {
+#button-inicio.show {
     opacity: 1;
     visibility: visible;
 }
@@ -392,7 +400,7 @@ img[src="images/carita-sonriente.png"] {
         flex: 0 0 auto;
     }
 
-    .contenido > article, .titulo-que-hago, .contenedor-objetos-que-hago article:first-child, .contenedor-objetos-que-hago article:last-child {
+    .article-de-contenido, .titulo-que-hago, .contenedor-objetos-que-hago article:first-child, .contenedor-objetos-que-hago article:last-child {
         margin: 0;
     }
 
@@ -437,15 +445,17 @@ img[src="images/carita-sonriente.png"] {
     .contenedor-objetos-que-hago {
         gap: 50px;
         text-align: left;
+        margin-top: 0;
     }
     
-    .objeto-que-hago {
-        width: 400px;
-    }
+        .objeto-que-hago {
+            width: 400px;
+        }
 
 
     .article-contactame {
         width: 40vw;
+        padding-left: 68px;
     }
     
     .div-min-width {
@@ -455,6 +465,10 @@ img[src="images/carita-sonriente.png"] {
 
     img[src="images/seccion-quien-soy-foto-personal.jpg"] {
         max-width: 490px;
+    }
+
+    img[src="images/carita-sonriente.png"] {
+        margin-right: 0;
     }
 }
 

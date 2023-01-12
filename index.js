@@ -1,4 +1,4 @@
-let mybutton = document.querySelector('#button');
+let mybutton = document.querySelector('#button-inicio');
 let mynav = document.querySelector('#nav');
 let mylogonav = document.querySelector('.svg-logo');
 
