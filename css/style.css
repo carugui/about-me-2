@@ -150,6 +150,11 @@ a:hover {
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
+    transition: color .8s;
+}
+
+.links-rrss a:hover {
+    color:#7A731D;
 }
 
 button,
@@ -312,10 +317,15 @@ textarea {
 
 .objeto-que-hago p {
     flex: 1;
-}
-
+} 
   
 img {
+    width: 100%;
+    height: auto;
+    border-radius: 34px;
+}
+
+video {
     width: 100%;
     height: auto;
     border-radius: 34px;
@@ -360,6 +370,7 @@ img[src="images/carita-sonriente.png"] {
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+    cursor: pointer;
 }
 
 #button-inicio.show {
