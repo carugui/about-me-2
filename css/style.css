@@ -283,6 +283,7 @@ textarea {
 
 .article-de-contenido {
     margin: 0 5% 0;
+    padding-top: 20px;
 }
 
 #que-hago {
@@ -413,6 +414,10 @@ img[src="images/carita-sonriente.png"] {
 
     .article-de-contenido, .titulo-que-hago, .contenedor-objetos-que-hago article:first-child, .contenedor-objetos-que-hago article:last-child {
         margin: 0;
+    }
+
+    .article-de-contenido {
+        padding-top: 0;
     }
 
     .seccion-botones {
