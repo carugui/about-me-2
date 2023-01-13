@@ -29,6 +29,11 @@ nav {
 
 #nav.nav-green {
     border-bottom: 3px solid #736A00;
+    background-color: #FCF3EB;
+}
+
+#nav.nav-green-desktop {
+    border-bottom: 3px solid #736A00;
 }
 
 .svg-logo {
@@ -364,6 +369,7 @@ img[src="images/carita-sonriente.png"] {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
+    background-color: #FCF3EB;
     position: fixed;
     bottom: 30px;
     right: 30px;
